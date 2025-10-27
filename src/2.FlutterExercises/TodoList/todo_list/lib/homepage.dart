@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ToDoListPage extends StatefulWidget {
-  const ToDoListPage({super.key, required this.title});
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -15,10 +15,10 @@ class ToDoListPage extends StatefulWidget {
   final String title;
 
   @override
-  State<ToDoListPage> createState() => _ToDoListPageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _ToDoListPageState extends State<ToDoListPage> {
+class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
